@@ -1,15 +1,11 @@
 import re 
 
 class GloVePreprocessor(object):
-    """Tweet preporcessor for glove.twitter.27B"""
+    """Tweet preporcessor for glove.twitter.27B
+       :param lowercase: Transform tweets to lowercase?, defaults to True
+       :type lowercase: Bool"""
     
-    def __init__(self, lowercase = True):
-        '''Initialization 
-        
-        :param lowercase: Transform tweets to lowercase?, defaults to True
-        :type tweet: Bool
-        '''
-    
+    def __init__(self, lowercase = True):   
         self.lowercase = lowercase
     
     def __hashtags__ (self, hashtag):    
@@ -71,10 +67,11 @@ class GloVePreprocessor(object):
                    lambda x: f'{x.group(1)}{x.group(2)} <elong> ',
                    self.tweet)
         
-        # to lowercase 
+        # To lowercase 
         if self.lowercase:
             self.tweet = self.tweet.lower()
-
+        
+        # Trim whitespaces 
         self.tweet = ' '.join(self.tweet.split())
 
         return (self.tweet)
