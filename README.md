@@ -8,9 +8,10 @@ Based on original Ruby script: https://nlp.stanford.edu/projects/glove/preproces
 
 ## Usage
 
-`from GloVePreprocessor import GloVePreprocessor` 
+`python
+from GloVePreprocessor import GloVePreprocessor
 
-`glove = GloVePreprocessor(lowercase=True)`
+glove = GloVePreprocessor(lowercase=True)
 
-`glove.preprocess('Hello, @username! :) #one #two #three ')`
-`> 'hello, <user> ! <smile> <hashtag> one <hashtag> two <hashtag> three'`
+glove.preprocess('Hello, @username! :) #one #two #three ')
+> 'hello, <user> ! <smile> <hashtag> one <hashtag> two <hashtag> three'`
