@@ -1,3 +1,7 @@
+
+
+[![GitHub license](https://img.shields.io/github/license/AntiDeprime/GloVeTwitterPreprocPy)](https://img.shields.io/github/license/AntiDeprime//blob/master/LICENSE)
+
 # GloVeTwitterPreprocPy
 Python package for preprocessing Twitter data for [GloVe](https://nlp.stanford.edu/projects/glove/).
 
