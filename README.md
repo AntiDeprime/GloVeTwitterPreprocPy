@@ -1,5 +1,5 @@
 # GloVeTwitterPreprocPy
-Python script for preprocessing Twitter data.
+Python package for preprocessing Twitter data for [GloVe](https://nlp.stanford.edu/projects/glove/).
 
 Based on original Ruby script: https://nlp.stanford.edu/projects/glove/preprocess-twitter.rb
 
