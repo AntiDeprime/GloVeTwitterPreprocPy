@@ -4,7 +4,7 @@ Python script for preprocessing Twitter data.
 Based on original Ruby script: https://nlp.stanford.edu/projects/glove/preprocess-twitter.rb
 
 ## Installation 
-```python
+```bash
 pip install git+https://github.com/AntiDeprime/GloVeTwitterPreprocPy.git
 ```
 
