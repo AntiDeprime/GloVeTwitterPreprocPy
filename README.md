@@ -1,5 +1,4 @@
-
-
+[![Python Version](https://img.shields.io/badge/python-%3E%3D%203.6-blue)](https://github.com/AntiDeprime/GloVeTwitterPreprocPy/)
 [![GitHub license](https://img.shields.io/github/license/AntiDeprime/GloVeTwitterPreprocPy)](https://github.com/AntiDeprime/GloVeTwitterPreprocPy/blob/master/LICENSE)
 
 # GloVeTwitterPreprocPy
